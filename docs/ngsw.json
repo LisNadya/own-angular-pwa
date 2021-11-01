@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635761902244,
+  "index": "https://lisnadya.github.io/own-angular-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://lisnadya.github.io/own-angular-pwa/favicon.ico",
+        "https://lisnadya.github.io/own-angular-pwa/index.html",
+        "https://lisnadya.github.io/own-angular-pwa/main.53ba710a02b52871b2f1.js",
+        "https://lisnadya.github.io/own-angular-pwa/manifest.webmanifest",
+        "https://lisnadya.github.io/own-angular-pwa/polyfills.7b312e14b8308eb0725b.js",
+        "https://lisnadya.github.io/own-angular-pwa/runtime.12eddb73637431577530.js",
+        "https://lisnadya.github.io/own-angular-pwa/styles.31d6cfe0d16ae931b73c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-128x128.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-144x144.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-152x152.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-192x192.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-384x384.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-512x512.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-72x72.png",
+        "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://lisnadya.github.io/own-angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://lisnadya.github.io/own-angular-pwa/index.html": "4bd92309a3f5ff97a9ea16f48212934ff6feed36",
+    "https://lisnadya.github.io/own-angular-pwa/main.53ba710a02b52871b2f1.js": "59600c59b3e52af525ef716a22bc1275023ce042",
+    "https://lisnadya.github.io/own-angular-pwa/manifest.webmanifest": "ccd3e1a5912adcc16f66473d4cba3e30f2bc0f04",
+    "https://lisnadya.github.io/own-angular-pwa/polyfills.7b312e14b8308eb0725b.js": "2172197e00de3c15e8c0c2b9655103b970a1845e",
+    "https://lisnadya.github.io/own-angular-pwa/runtime.12eddb73637431577530.js": "7968b5f2033138f5d539ac14b6a29702c8341aa2",
+    "https://lisnadya.github.io/own-angular-pwa/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
