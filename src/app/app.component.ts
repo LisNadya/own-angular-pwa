@@ -7,7 +7,7 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'angular-pwa-app';
+  title = 'Welcome!';
   users: any = [];
   constructor(private swUpdate: SwUpdate, private injector: Injector) {
   }
@@ -16,20 +16,29 @@ export class AppComponent implements OnInit {
       this.injector.get(AppService).getUsers().subscribe(data => 
         {
           if(data){
-            console.log(data)
             this.users = data;
+            this.title = `Welcome! ${this.users.length} users loaded`
           }
         }
       )
       if (this.swUpdate.isEnabled) {
 
           this.swUpdate.available.subscribe(() => {
-
               if(confirm("New version available. Load New Version?")) {
-
-                  window.location.reload();
+                window.location.reload();
               }
           });
       }        
+  }
+
+  onClickSubmit(payload: any) {
+    this.injector.get(AppService).addUser(payload).subscribe(data => 
+      {
+        if(data){
+          this.users = [data];
+          this.title = `Welcome! ${this.users.length} user loaded`
+        }
+      }
+    )
   }
 }

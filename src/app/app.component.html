@@ -1,4 +1,16 @@
-<h1 style="text-align: center;"> Users </h1>
+<h1 style="text-align: center;"> {{title}} </h1>
+<div style="width: calc(80%); background:white; padding: 20px; border:1px solid grey; margin: 20px auto;"> 
+    <form #userForm="ngForm" (ngSubmit)="onClickSubmit(userForm.value)">
+        <input type="text" name="id" placeholder="Enter id" ngModel/><br/><br/>
+        <input type="text" name="fName" placeholder="Enter first name" ngModel/><br/><br/>
+        <input type="text" name="lName" placeholder="Enter last name" ngModel/><br/><br/>
+        <input type="text" name="email" placeholder="Enter email" ngModel/><br/><br/>
+        <input type="text" name="gender" placeholder="Enter name" ngModel/><br/><br/>
+        <input type="text" name="ipAdd" placeholder="Enter ip address" ngModel/><br/><br/>
+        <button type="submit" value="submit">Submit</button>
+    </form>
+    
+</div>
 <div *ngFor="let u of users">
     <div style="width: calc(80%); background:white; padding: 20px; border:1px solid grey; margin: 20px auto;"> 
         ID: {{u.id}}<br/>

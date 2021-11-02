@@ -19,4 +19,8 @@ export class AppService {
         const URL = `https://my.api.mockaroo.com/users.json?key=fc2ee410`;
         return this.httpClient.get<any>(URL);
     }
+    addUser(data: any) {
+        const URL = `https://my.api.mockaroo.com/users.json?key=fc2ee410&__method=POST`;
+        return this.httpClient.post<any>(URL, data);
+    }
 }
