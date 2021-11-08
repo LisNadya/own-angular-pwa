@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635819930016,
+  "timestamp": 1636362913100,
   "index": "https://lisnadya.github.io/own-angular-pwa/index.html",
   "assetGroups": [
     {
@@ -11,12 +11,21 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://lisnadya.github.io/own-angular-pwa/206.c42d35df40c36f572416.js",
+        "https://lisnadya.github.io/own-angular-pwa/25.07919cdd5727e454caa6.js",
+        "https://lisnadya.github.io/own-angular-pwa/262.8211309253d350b94b4a.js",
+        "https://lisnadya.github.io/own-angular-pwa/28.e8a6ebecfe08a888b830.js",
+        "https://lisnadya.github.io/own-angular-pwa/297.2562e8d1682a30975cac.js",
+        "https://lisnadya.github.io/own-angular-pwa/313.15612bd4148035a5d068.js",
+        "https://lisnadya.github.io/own-angular-pwa/437.afee00e57d59f4b09ac3.js",
         "https://lisnadya.github.io/own-angular-pwa/favicon.ico",
         "https://lisnadya.github.io/own-angular-pwa/index.html",
-        "https://lisnadya.github.io/own-angular-pwa/main.5eee495d7e1a4b9eb5f1.js",
+        "https://lisnadya.github.io/own-angular-pwa/main.89ed664d343233e6c639.js",
         "https://lisnadya.github.io/own-angular-pwa/manifest.webmanifest",
         "https://lisnadya.github.io/own-angular-pwa/polyfills.7b312e14b8308eb0725b.js",
-        "https://lisnadya.github.io/own-angular-pwa/runtime.12eddb73637431577530.js",
+        "https://lisnadya.github.io/own-angular-pwa/runtime.a7e11a03878d8a71191b.js",
+        "https://lisnadya.github.io/own-angular-pwa/stencil-polyfills-css-shim.a9adc341cb8bd36d0283.js",
+        "https://lisnadya.github.io/own-angular-pwa/stencil-polyfills-dom.102a0537394e6fdfd2c7.js",
         "https://lisnadya.github.io/own-angular-pwa/styles.31d6cfe0d16ae931b73c.css"
       ],
       "patterns": []
@@ -44,6 +53,13 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://lisnadya.github.io/own-angular-pwa/206.c42d35df40c36f572416.js": "170b7824eb7187c3fe8dd39a69565574adba86c3",
+    "https://lisnadya.github.io/own-angular-pwa/25.07919cdd5727e454caa6.js": "f7904b02c1c68fda0befc00529f4353afcbfa39b",
+    "https://lisnadya.github.io/own-angular-pwa/262.8211309253d350b94b4a.js": "8dc6f923145f5c2e11be5f2454be103bc2751415",
+    "https://lisnadya.github.io/own-angular-pwa/28.e8a6ebecfe08a888b830.js": "04eac92a156851a384d5e9858a2323c6d9b79540",
+    "https://lisnadya.github.io/own-angular-pwa/297.2562e8d1682a30975cac.js": "05d91b923df44c33f24e2fb438995e951535e713",
+    "https://lisnadya.github.io/own-angular-pwa/313.15612bd4148035a5d068.js": "c153304ce183278baafbb98cc66afd863d4c3759",
+    "https://lisnadya.github.io/own-angular-pwa/437.afee00e57d59f4b09ac3.js": "b33c728ad1cfaaa8835bb60259599f0387679236",
     "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -54,11 +70,13 @@
     "https://lisnadya.github.io/own-angular-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://lisnadya.github.io/own-angular-pwa/assets/mockData.json": "2d1ab0a86db1d2bc393e070a7f0bf0a4e097a379",
     "https://lisnadya.github.io/own-angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://lisnadya.github.io/own-angular-pwa/index.html": "3899099fe6fada2bc0bce9a66fbb67c2f82d494a",
-    "https://lisnadya.github.io/own-angular-pwa/main.5eee495d7e1a4b9eb5f1.js": "9b5ed8aaccf70a0257afae26eca44d1206b044fb",
+    "https://lisnadya.github.io/own-angular-pwa/index.html": "51d56ea5b3d3729d074356d1828e68a67090c7c8",
+    "https://lisnadya.github.io/own-angular-pwa/main.89ed664d343233e6c639.js": "3ec6a1cef32e5ee18619e31cb42559285efddc3e",
     "https://lisnadya.github.io/own-angular-pwa/manifest.webmanifest": "ccd3e1a5912adcc16f66473d4cba3e30f2bc0f04",
     "https://lisnadya.github.io/own-angular-pwa/polyfills.7b312e14b8308eb0725b.js": "2172197e00de3c15e8c0c2b9655103b970a1845e",
-    "https://lisnadya.github.io/own-angular-pwa/runtime.12eddb73637431577530.js": "7968b5f2033138f5d539ac14b6a29702c8341aa2",
+    "https://lisnadya.github.io/own-angular-pwa/runtime.a7e11a03878d8a71191b.js": "cefef9027555bdc92ac6f616dca4ea5cbfcd35bd",
+    "https://lisnadya.github.io/own-angular-pwa/stencil-polyfills-css-shim.a9adc341cb8bd36d0283.js": "228f1d1c1ae9d7dfa7388afed9977cef7cc86a3e",
+    "https://lisnadya.github.io/own-angular-pwa/stencil-polyfills-dom.102a0537394e6fdfd2c7.js": "069eb1b7be4a4c0bba3265cf59b675004556cac1",
     "https://lisnadya.github.io/own-angular-pwa/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
